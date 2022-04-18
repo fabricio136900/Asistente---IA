@@ -7,7 +7,7 @@ engine = tt.init()
 
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
-engine.say("Hola que tal?. Cómo estas?")
+engine.say("Hola que tal?. Mi nombre es Viernes. Cómo estas?")
 engine.runAndWait()
 
 try:
@@ -18,3 +18,5 @@ try:
         print(rec)
 except:
     pass
+
+
